@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 require('dotenv').config();
+const env = process.env;
 const client = new Discord.Client();
 const prefix = process.env.PREFIX;
 client.on('ready', () => {
